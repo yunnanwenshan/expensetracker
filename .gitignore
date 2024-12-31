@@ -1,3 +1,16 @@
 *.sqlite3
 logs.txt
 .git/
+.1024*
+!.1024
+.breakpoints
+*.exe
+*.out
+*.test
+*.log
+vendor/
+# Dependency directories
+node_modules/
+# Go binaries
+/bin/
+/pkg/
