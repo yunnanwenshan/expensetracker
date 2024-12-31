@@ -5,12 +5,19 @@ logs.txt
 !.1024
 .breakpoints
 *.exe
+*.exe~
 *.out
-*.test
 *.log
+*.tmp
 vendor/
 # Dependency directories
 node_modules/
 # Go binaries
 /bin/
 /pkg/
+# Go build cache
+*.cache
+# Binary output
+*.bin
+# Test binary
+*.test
